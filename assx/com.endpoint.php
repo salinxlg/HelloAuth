@@ -5,7 +5,7 @@ header("Content-Type: application/json");
 if(isset($_POST["token"])){
 
     $token = $_POST["token"];
-    $url = "https://api.dexly.space/hellopass/dispatch/";
+    $url = "https://dws.dexly.space/rest/auth/dispatch/";
 
     $data = [
         "secretClient" => "_SET_SECRET_CLIENT",
